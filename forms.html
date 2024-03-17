@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+            <br>
+            <label for="number">Number: </label>
+            <input type="number" id="mobile" name="mobile" placeholder="123456">
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email_address" name="email_adress" placeholder="John@gmail.com">
+            <br>
+            <label for="Password">Password: </label>
+            <input type="password" id="password" name="pasword">
+            <br>
+            <label for="name">Name: </label>
+            <br>
+            <label for="bio">Bio: </label>
+            <textarea id="bio" name="bio" rows="10" columns="30">
+                Please type your Bio here
+            </textarea>
+            <br>
+            <input type="checkbox" id="math" name="math" value="math">
+            <label for="math">Math: </label>
+            <br>
+            <input type="checkbox" id="english" name="english" value="english">
+            <label for="english">English: </label>
+            <br>
+            <input type="checkbox" id="Geo" name="Geo" value="Geo">
+            <label for="Geo">Geo: </label>
+            <br>
+            <input type="Radio" id="Male" name="Gender" value="Male">
+            <label>Male </label>
+            <br>
+            <input type="Radio" id="Female" name="Gender" value="Female">
+            <label>Female </label>
+            <br>
+            <label for="Lesson">Lesson location: </label>
+            <br>
+           <select id ="lesson" name="lesson" multiple>
+            <option value=""></option>
+            <option value="Online"></option>
+            <option value="Physical"></option>
+           </select>
+           <br>
+           <label for="Passport_photo">Passport_photo: </label>
+           <input type="File" id="Passport_photo" name="Passport_photo" accept="image/*">
+           <input type="hidden" id="token" name="token" value="21f45h6f">
+           <hr>
+           <input type="button" id="ok" name="ok" value="Ok">
+           <br>
+           <input type="reset" id="reset" name="reset" value="Reset">
+           <br>
+           <input type="submit" id="submit" name="submit" value="Submit">
+        </form>
+    </body>
+</html>

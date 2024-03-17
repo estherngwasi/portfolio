@@ -1,0 +1,29 @@
+#green_parapraph {
+color: green;
+font-size: 20px;
+}
+/* This is a comment in css*/
+.red_paragraph {
+    color: red;
+    font-size: 50px;
+}
+/* FOR CLASS CONTAINER*/
+.container {
+/*width: 800px;
+height: 500px;
+border:1px solid black;
+padding: 10px;
+margin: 30px;*/
+display: flex;
+}
+.item{
+    padding: 5px;
+}
+.container img {
+    width: 300px;
+    height: 200px;
+}
+
+body {
+    background-color: aquamarine;
+}
